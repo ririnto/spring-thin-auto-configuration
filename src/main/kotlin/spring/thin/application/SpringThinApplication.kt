@@ -9,13 +9,13 @@ import org.springframework.context.ApplicationContext
 import spring.thin.application.annotation.SpringBootThinApplication
 
 @SpringBootThinApplication
-class SpringThinAutoConfigurationApplication(private val applicationContext: ApplicationContext) : ApplicationRunner {
+class SpringThinApplication(private val applicationContext: ApplicationContext) : ApplicationRunner {
     private val log: Logger = LoggerFactory.getLogger(this::class.java)
 
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            runApplication<SpringThinAutoConfigurationApplication>(*args)
+            runApplication<SpringThinApplication>(*args)
         }
     }
 

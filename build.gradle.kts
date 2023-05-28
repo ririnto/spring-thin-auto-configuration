@@ -8,7 +8,7 @@ plugins {
     kotlin("plugin.jpa") version "1.8.21"
 }
 
-group = "com.example"
+group = "spring.thin"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
